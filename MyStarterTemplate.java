@@ -9,6 +9,7 @@ public class MyStarterTemplate {
     }
 
     public void printName() {
+        System.out.println("获取myStarterProperties的名字");
         System.out.println("myStarterProperties.getName() = " + myStarterProperties.getName());
     }
 }
